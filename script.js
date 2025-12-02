@@ -190,22 +190,22 @@ function createScrollToTopButton() {
     const button = document.createElement('button');
     button.innerHTML = '<i class="fas fa-arrow-up"></i>';
     button.className = 'scroll-to-top';
-    button.style.cssText = `
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 50px;
-        height: 50px;
-        background: #3182ce;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-        display: none;
-        z-index: 1000;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 12px rgba(49, 130, 206, 0.3);
-    `;
+        button.style.cssText = `
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: #8b5cf6;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+        `;
     
     document.body.appendChild(button);
     
@@ -227,15 +227,15 @@ function createScrollToTopButton() {
     });
     
     // Hover effect
-    button.addEventListener('mouseenter', () => {
-        button.style.transform = 'scale(1.1)';
-        button.style.background = '#2c5aa0';
-    });
+        button.addEventListener('mouseenter', () => {
+            button.style.transform = 'scale(1.1)';
+            button.style.background = '#6d28d9';
+        });
     
-    button.addEventListener('mouseleave', () => {
-        button.style.transform = 'scale(1)';
-        button.style.background = '#3182ce';
-    });
+        button.addEventListener('mouseleave', () => {
+            button.style.transform = 'scale(1)';
+            button.style.background = '#8b5cf6';
+        });
 }
 
 // Initialize scroll-to-top button
@@ -353,7 +353,7 @@ window.addEventListener('scroll', () => {
 const activeNavStyle = document.createElement('style');
 activeNavStyle.textContent = `
     .nav-link.active {
-        color: #8b5cf6 !important;
+        color: #475569 !important;
     }
     
     .nav-link.active::after {
