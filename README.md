@@ -1,4 +1,4 @@
-# Aerospace Engineering Portfolio
+# My Portfolio
 
 A modern, responsive portfolio website designed specifically for aerospace engineering students. This portfolio showcases academic achievements, projects, skills, and professional development in the aerospace field.
 
